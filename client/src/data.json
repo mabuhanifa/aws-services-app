@@ -4,7 +4,7 @@
     "name": "Kacchi Biriyani",
     "country": "Bangladesh",
     "img": "https://i.ibb.co/HNY06Xy/kacchi.png",
-    "price": "12,25",
+    "price": "5.25",
     "isAvailable": true
   },
   {
@@ -12,7 +12,7 @@
     "name": "Warbat",
     "country": "Jordan",
     "img": "https://i.ibb.co/vVYjTTV/warbat-jordan.webp",
-    "price": "12,25",
+    "price": "7.99",
     "isAvailable": true
   },
   {
@@ -20,7 +20,7 @@
     "name": "Welsh rarebit",
     "country": "United Kingdom",
     "img": "https://i.ibb.co/ngCL0nm/Wales-Rare-bit.webp",
-    "price": "12,25",
+    "price": "3.75",
     "isAvailable": true
   },
   {
@@ -28,7 +28,7 @@
     "name": "Barbecue",
     "country": "USA",
     "img": "https://i.ibb.co/DfzBdh1/USA-Barbecue.webp",
-    "price": "12,25",
+    "price": "12.00",
     "isAvailable": true
   },
   {
@@ -36,7 +36,7 @@
     "name": "Tacos",
     "country": "Mexico",
     "img": "https://i.ibb.co/D90zzV7/Tacos-Mexico.webp",
-    "price": "12,25",
+    "price": "5.99",
     "isAvailable": true
   }
 ]

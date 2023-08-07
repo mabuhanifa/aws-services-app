@@ -1,33 +1,33 @@
 import React from "react";
 import { BiSolidHeart } from "react-icons/bi";
-import order from '../assets/add.png';
+import order from "../assets/add.png";
 
 export default function Food({ food }) {
   return (
     <div
       key={food.id}
-      className="bg-white p-3 rounded-2xl max-w-[400px] mx-auto"
+      className="bg-white p-2.5 rounded-2xl max-w-[400px] mx-auto shadow-2xl group text-gray-700"
     >
-      <div className="flex justify-center items-center relative ">
+      <div className="flex justify-center items-center relative">
         <img
           src={food.img}
           alt={food.name}
           className="w-96 h-80 object-cover rounded-2xl"
         />
-        <div className="flex justify-center items-center absolute top-3 right-3 h-10 w-10 bg-white/[.75] rounded-full">
+        <button className="flex justify-center items-center absolute top-3 right-3 h-10 w-10 bg-white/[.75] rounded-full">
           <BiSolidHeart color="red" size={20} className="text-white" />
-        </div>
-        <div className="bottom-3 right-3 absolute h-10 w-10 bg-white/[.7] rounded-full p-1">
-            <img src={order} alt="order" />
-        </div>
+        </button>
+        <button className="bottom-3 right-3 absolute h-10 w-10 bg-white/[.8] rounded-full p-1.5 hidden group-hover:block">
+          <img src={order} alt="order" />
+        </button>
       </div>
-      <h1>{food.name}</h1>
-      <p>{food.country}</p>
-      <p>{food.price}</p>
-      <hr />
-      <button>Add to Cart</button>
-      <hr />
-      <button>Buy Now</button>
+      <div className="p-3">
+        <div className="flex justify-between items-center">
+          <h1 className="text-xl font-bold">{food.name}</h1>
+          <p className="font-[500]">${food.price}</p>
+        </div>
+        <p className="font-bold text-gray-500 mt-3">{food.country}</p>
+      </div>
     </div>
   );
 }
