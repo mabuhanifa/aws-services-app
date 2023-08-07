@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import Foods from "./components/Foods";
 
 function App() {
   return (
-    <div className="bg-red-500">
-      app
+    <div className="p-10 2xl:px-40 bg-gray-200">
+      <Foods />
     </div>
   );
 }
