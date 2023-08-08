@@ -18,7 +18,6 @@ export default function Nav() {
               type="text"
               className="bg-gray-200 rounded-md py-2 md:w-96 px-10"
               placeholder="Search"
-              //   onChange={(e) => {dispatch(addFilter(e.target.value))}}
             />
             <RiSearchLine className="text-gray-400 text-2xl absolute left-2 top-2" />
           </div>
