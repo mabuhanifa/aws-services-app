@@ -36,7 +36,7 @@ export default function Food({ food }) {
           <p className="font-[500]">${food.price}</p>
         </div>
         <div className="flex justify-between items-center">
-          <p className="font-bold text-gray-500 my-2">{food.country}</p>
+          <p className="font-bold text-gray-500 my-1">{food.country}</p>
           <p
             className={
               food.isAvailable
@@ -52,7 +52,7 @@ export default function Food({ food }) {
             <GoLocation />
             <p>{food.restaurant.name}</p>
           </div>
-          <p className="mt-0.5 text-xs">{food.restaurant.address}</p>
+          <p className="mt-1 text-xs">{food.restaurant.address}</p>
         </div>
       </div>
     </div>
