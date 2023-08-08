@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { animated, useSpring } from "react-spring";
 import data from "../data.json";
+// import data from "../data.json";
 import Food from "./Food";
 
 export default function Foods() {
