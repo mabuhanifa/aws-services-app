@@ -1,6 +1,7 @@
 import { CiUser } from "react-icons/ci";
 import { MdFoodBank } from "react-icons/md";
 import { RiSearchLine } from "react-icons/ri";
+import platter from "../assets/platee.png";
 
 export default function Nav() {
   return (
@@ -22,7 +23,10 @@ export default function Nav() {
             <RiSearchLine className="text-gray-400 text-2xl absolute left-2 top-2" />
           </div>
         </div>
-        <div>
+        <div className="flex items-center gap-x-8">
+          <button className="flex items-center mt-1">
+            <img src={platter} alt="platter" className="h-[30px]"/>
+          </button>
           <button>
             <CiUser className="text-2xl text-gray-600 mt-1.5" />
           </button>

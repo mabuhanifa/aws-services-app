@@ -1,6 +1,7 @@
 import React from "react";
 import { BiSolidHeart } from "react-icons/bi";
-import order from "../assets/add.png";
+import add from "../assets/add.png";
+
 
 export default function Food({ food }) {
   return (
@@ -18,7 +19,7 @@ export default function Food({ food }) {
           <BiSolidHeart color="red" size={20} className="text-white" />
         </button>
         <button className="bottom-3 right-3 absolute h-10 w-10 bg-white/[.8] rounded-full p-1.5 hidden group-hover:block">
-          <img src={order} alt="order" />
+          <img src={add} alt="order" />
         </button>
       </div>
       <div className="p-3">
