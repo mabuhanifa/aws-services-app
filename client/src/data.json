@@ -5,6 +5,10 @@
     "country": "Bangladesh",
     "img": "https://i.ibb.co/HNY06Xy/kacchi.png",
     "price": "5.25",
+    "restaurant": {
+      "name": "Sultans Dine",
+      "address": "1st Floor, New Satmasjid Road, Dhaka 1209"
+    },
     "isAvailable": true
   },
   {
@@ -13,6 +17,10 @@
     "country": "Jordan",
     "img": "https://i.ibb.co/vVYjTTV/warbat-jordan.webp",
     "price": "7.99",
+    "restaurant": {
+      "name": "Amman Delights",
+      "address": "1234 Rainbow Street, Amman, Jordan"
+    },
     "isAvailable": true
   },
   {
@@ -21,6 +29,10 @@
     "country": "United Kingdom",
     "img": "https://i.ibb.co/ngCL0nm/Wales-Rare-bit.webp",
     "price": "3.75",
+    "restaurant": {
+      "name": "London Eats",
+      "address": "456 Baker Street, London, UK"
+    },
     "isAvailable": true
   },
   {
@@ -29,6 +41,10 @@
     "country": "USA",
     "img": "https://i.ibb.co/DfzBdh1/USA-Barbecue.webp",
     "price": "12.00",
+    "restaurant": {
+      "name": "American Grill",
+      "address": "789 Sunset Blvd, Los Angeles, CA"
+    },
     "isAvailable": true
   },
   {
@@ -37,6 +53,10 @@
     "country": "Mexico",
     "img": "https://i.ibb.co/D90zzV7/Tacos-Mexico.webp",
     "price": "5.99",
+    "restaurant": {
+      "name": "Taco Heaven",
+      "address": "101 Guacamole Street, Mexico City, Mexico"
+    },
     "isAvailable": true
   },
   {
@@ -44,7 +64,11 @@
     "name": "Som Tam",
     "country": "Thailand",
     "img": "https://i.ibb.co/80q7DQg/Somtam-in-Bangkok.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Bangkok Spice",
+      "address": "222 Thai Street, Bangkok, Thailand"
+    },
     "isAvailable": true
   },
   {
@@ -52,7 +76,11 @@
     "name": "Spanakopita",
     "country": "Greece",
     "img": "https://i.ibb.co/1LZxXZ9/Spanakopita-Greece.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Olympus Taverna",
+      "address": "777 Olive Avenue, Athens, Greece"
+    },
     "isAvailable": true
   },
   {
@@ -60,7 +88,11 @@
     "name": "Smoked Salmon",
     "country": "Scotland",
     "img": "https://i.ibb.co/F3MVKdz/Scotland-Smoked-Salmon.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Highland Seafood",
+      "address": "555 Loch Ness Lane, Inverness, Scotland"
+    },
     "isAvailable": true
   },
   {
@@ -68,7 +100,11 @@
     "name": "Sarmale",
     "country": "Romania",
     "img": "https://i.ibb.co/V34yq04/Romania-Sarmale.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Carpathian Cuisine",
+      "address": "999 Dracula Drive, Transylvania, Romania"
+    },
     "isAvailable": true
   },
   {
@@ -76,7 +112,11 @@
     "name": "Poutine",
     "country": "Canada",
     "img": "https://i.ibb.co/2kVL3m9/Poutine-Canada.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Maple Leaf Bistro",
+      "address": "1234 Maple Street, Toronto, Canada"
+    },
     "isAvailable": true
   },
   {
@@ -84,7 +124,11 @@
     "name": "Pancit",
     "country": "Philippines",
     "img": "https://i.ibb.co/W05MqyB/Philippines-Pancit.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Manila Noodles",
+      "address": "123 Noodle Street, Manila, Philippines"
+    },
     "isAvailable": true
   },
   {
@@ -92,15 +136,23 @@
     "name": "Paella",
     "country": "Spain",
     "img": "https://i.ibb.co/z8ShtvV/Paella-Spain.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Barcelona Bites",
+      "address": "456 Tapas Alley, Barcelona, Spain"
+    },
     "isAvailable": true
   },
   {
     "id": "13",
-    "name": "Penang Laksa ",
+    "name": "Penang Laksa",
     "country": "Malaysia",
     "img": "https://i.ibb.co/6nRJtqS/Penang-Assam-Laksa-Malaysia.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Penang Spice House",
+      "address": "789 Laksa Lane, Penang, Malaysia"
+    },
     "isAvailable": true
   },
   {
@@ -108,7 +160,11 @@
     "name": "Muhallabia",
     "country": "Jordan",
     "img": "https://i.ibb.co/Wts9M0c/Muhallabia-jorder.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Amman Sweets",
+      "address": "101 Dessert Street, Amman, Jordan"
+    },
     "isAvailable": true
   },
   {
@@ -116,7 +172,11 @@
     "name": "Kabsa",
     "country": "Oman",
     "img": "https://i.ibb.co/wwmcMgM/Middle-Eastern-Chicken-and-Rice-Al-Kabsa-square.jpg",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Muscat Feast",
+      "address": "555 Rice Road, Muscat, Oman"
+    },
     "isAvailable": true
   },
   {
@@ -124,7 +184,11 @@
     "name": "Meat Pie",
     "country": "Australia",
     "img": "https://i.ibb.co/ZLD9KBY/Meat-Pie-Australia.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Down Under Delights",
+      "address": "123 Pie Lane, Sydney, Australia"
+    },
     "isAvailable": true
   },
   {
@@ -132,7 +196,11 @@
     "name": "Masala Dosa",
     "country": "India",
     "img": "https://i.ibb.co/wwd2sPg/Masala-Dosa-India.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Mumbai Masala",
+      "address": "456 Dosa Street, Mumbai, India"
+    },
     "isAvailable": true
   },
   {
@@ -140,7 +208,11 @@
     "name": "Nasi Lemak",
     "country": "Malaysia",
     "img": "https://i.ibb.co/Khh4kym/Malaysia-Nasi-Lemak.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Kuala Lumpur Cuisine",
+      "address": "789 Lemak Lane, Kuala Lumpur, Malaysia"
+    },
     "isAvailable": true
   },
   {
@@ -148,7 +220,11 @@
     "name": "Kimchi",
     "country": "Korea",
     "img": "https://i.ibb.co/8YFLXNH/Kimchi-Korea.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Seoul Spice",
+      "address": "101 Kimchi Street, Seoul, Korea"
+    },
     "isAvailable": true
   },
   {
@@ -156,7 +232,11 @@
     "name": "Pani Puri",
     "country": "India",
     "img": "https://i.ibb.co/QYGmMMs/indian-pani-puri.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Delhi Delights",
+      "address": "123 Puri Lane, Delhi, India"
+    },
     "isAvailable": true
   },
   {
@@ -164,15 +244,23 @@
     "name": "Paprikas Krumpli",
     "country": "Hungary",
     "img": "https://i.ibb.co/kqMZrY4/Hungary-Paprik-s-Krumpli.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Budapest Bistro",
+      "address": "456 Paprika Street, Budapest, Hungary"
+    },
     "isAvailable": true
   },
   {
     "id": "22",
-    "name": "Chiken Biriyani",
+    "name": "Chicken Biriyani",
     "country": "India",
     "img": "https://i.ibb.co/qNsFdFG/chicken-Dum-Biriyani-india.png",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Spice Palace",
+      "address": "101 Biryani Road, Chennai, India"
+    },
     "isAvailable": true
   },
   {
@@ -180,7 +268,11 @@
     "name": "Kasespatzle",
     "country": "Germany",
     "img": "https://i.ibb.co/FmfsDkM/Germany-K-sesp-tzle-and-D-ner-Kebab.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Berlin Bites",
+      "address": "123 Spatzle Lane, Berlin, Germany"
+    },
     "isAvailable": true
   },
   {
@@ -188,7 +280,11 @@
     "name": "Harres",
     "country": "Oman",
     "img": "https://i.ibb.co/bg8NTP4/harres-oman.jpg",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Omani Flavors",
+      "address": "456 Harres Street, Muscat, Oman"
+    },
     "isAvailable": true
   },
   {
@@ -196,7 +292,11 @@
     "name": "Beef Tehari",
     "country": "Bangladesh",
     "img": "https://i.ibb.co/pxYfsLm/Bangladeshi-Beef-Tehari-1.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Dhaka Spice",
+      "address": "101 Tehari Road, Dhaka, Bangladesh"
+    },
     "isAvailable": true
   },
   {
@@ -204,7 +304,11 @@
     "name": "Mussels French Fries",
     "country": "Belgium",
     "img": "https://i.ibb.co/VvBvVy7/Belgium-Mussels-with-French-Fries.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Brussels Bites",
+      "address": "123 Moules Lane, Brussels, Belgium"
+    },
     "isAvailable": true
   },
   {
@@ -212,7 +316,11 @@
     "name": "Borsch",
     "country": "Ukraine",
     "img": "https://i.ibb.co/h9PxwcX/Borsch-Ukraine.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Kiev Kitchen",
+      "address": "456 Borsch Street, Kiev, Ukraine"
+    },
     "isAvailable": true
   },
   {
@@ -220,7 +328,11 @@
     "name": "Bunny Chow",
     "country": "South Africa",
     "img": "https://i.ibb.co/ZLXCTmZ/Bunny-Chow-South-Africa.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Cape Town Cuisine",
+      "address": "101 Bunny Street, Cape Town, South Africa"
+    },
     "isAvailable": true
   },
   {
@@ -228,7 +340,11 @@
     "name": "Chicken Kabouli",
     "country": "Oman",
     "img": "https://i.ibb.co/7Njnt8h/Chicken-kabouli-oman.jpg",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Salalah Spices",
+      "address": "456 Kabouli Road, Salalah, Oman"
+    },
     "isAvailable": true
   },
   {
@@ -236,7 +352,11 @@
     "name": "Croissant",
     "country": "France",
     "img": "https://i.ibb.co/cvjP89h/Croissant-France.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Paris Patisserie",
+      "address": "123 Croissant Lane, Paris, France"
+    },
     "isAvailable": true
   },
   {
@@ -244,7 +364,11 @@
     "name": "Chicken Dum Biryani",
     "country": "Pakistan",
     "img": "https://i.ibb.co/gzm4Nj5/Bangladeshi-Chicken-Biryani-Recipe.jpg",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Lahore Flavors",
+      "address": "101 Biryani Street, Lahore, Pakistan"
+    },
     "isAvailable": true
   },
   {
@@ -252,7 +376,11 @@
     "name": "Empanadas",
     "country": "Argentina",
     "img": "https://i.ibb.co/v1PG15S/Argentina-Empanadas.webp",
-    "price": "12,25",
+    "price": "12.25",
+    "restaurant": {
+      "name": "Buenos Aires Bites",
+      "address": "456 Empanada Lane, Buenos Aires, Argentina"
+    },
     "isAvailable": true
   }
 ]
