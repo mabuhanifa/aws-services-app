@@ -24,10 +24,11 @@ export default function Nav() {
           </div>
         </div>
         <div className="flex items-center gap-x-8">
-          <button className="flex items-center mt-1">
-            <img src={platter} alt="platter" className="h-[30px]"/>
+          <button className="flex items-center mt-1 relative">
+            <img src={platter} alt="platter" className="h-[30px]" />
+            <span className="absolute top-[-8px] right-[-10px] h-5 w-5 bg-red-500 rounded-full text-white text-sm">0</span>
           </button>
-          <button>
+          <button className="flex items-center relative">
             <CiUser className="text-2xl text-gray-600 mt-1.5" />
           </button>
         </div>
