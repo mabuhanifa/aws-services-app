@@ -1,5 +1,6 @@
 import React from "react";
 import { BiSolidHeart } from "react-icons/bi";
+import { GoLocation } from "react-icons/go";
 import add from "../assets/add.png";
 
 export default function Food({ food }) {
@@ -17,8 +18,10 @@ export default function Food({ food }) {
         <button className="flex justify-center items-center absolute top-3 right-3 h-10 w-10 bg-white/[.75] rounded-full">
           <BiSolidHeart color="red" size={20} className="text-white" />
         </button>
-        <button className="bottom-3 right-3 absolute p-1.5 hidden group-hover:flex justify-between items-center
-         px-5 bg-black/[.75] gap-x-3 rounded-lg text-white font-[500]">
+        <button
+          className="bottom-3 right-3 absolute p-1.5 hidden group-hover:flex justify-between items-center
+         px-5 bg-black/[.75] gap-x-3 rounded-lg text-white font-[500]"
+        >
           <span>ORDER NOW</span>
           <img
             src={add}
@@ -32,7 +35,25 @@ export default function Food({ food }) {
           <h1 className="text-xl font-bold">{food.name}</h1>
           <p className="font-[500]">${food.price}</p>
         </div>
-        <p className="font-bold text-gray-500 mt-3">{food.country}</p>
+        <div className="flex justify-between items-center">
+          <p className="font-bold text-gray-500 my-2">{food.country}</p>
+          <p
+            className={
+              food.isAvailable
+                ? "text-green-500 text-sm font-[500]"
+                : "text-red-500 text-sm font-[500]"
+            }
+          >
+            {food.isAvailable ? "Available" : "Not Available"}
+          </p>
+        </div>
+        <div className="text-slate-500">
+          <div className="flex items-center gap-x-1">
+            <GoLocation />
+            <p>{food.restaurant.name}</p>
+          </div>
+          <p className="mt-0.5 text-xs">{food.restaurant.address}</p>
+        </div>
       </div>
     </div>
   );

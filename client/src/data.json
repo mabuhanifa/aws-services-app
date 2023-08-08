@@ -33,7 +33,7 @@
       "name": "London Eats",
       "address": "456 Baker Street, London, UK"
     },
-    "isAvailable": true
+    "isAvailable": false
   },
   {
     "id": "04",
@@ -69,7 +69,7 @@
       "name": "Bangkok Spice",
       "address": "222 Thai Street, Bangkok, Thailand"
     },
-    "isAvailable": true
+    "isAvailable": false
   },
   {
     "id": "07",
@@ -93,7 +93,7 @@
       "name": "Highland Seafood",
       "address": "555 Loch Ness Lane, Inverness, Scotland"
     },
-    "isAvailable": true
+    "isAvailable": false
   },
   {
     "id": "09",
@@ -129,7 +129,7 @@
       "name": "Manila Noodles",
       "address": "123 Noodle Street, Manila, Philippines"
     },
-    "isAvailable": true
+    "isAvailable": false
   },
   {
     "id": "12",
@@ -165,7 +165,7 @@
       "name": "Amman Sweets",
       "address": "101 Dessert Street, Amman, Jordan"
     },
-    "isAvailable": true
+    "isAvailable": false
   },
   {
     "id": "15",
@@ -189,7 +189,7 @@
       "name": "Down Under Delights",
       "address": "123 Pie Lane, Sydney, Australia"
     },
-    "isAvailable": true
+    "isAvailable": false
   },
   {
     "id": "17",
@@ -225,7 +225,7 @@
       "name": "Seoul Spice",
       "address": "101 Kimchi Street, Seoul, Korea"
     },
-    "isAvailable": true
+    "isAvailable": false
   },
   {
     "id": "20",
@@ -261,7 +261,7 @@
       "name": "Spice Palace",
       "address": "101 Biryani Road, Chennai, India"
     },
-    "isAvailable": true
+    "isAvailable": false
   },
   {
     "id": "23",
@@ -309,7 +309,7 @@
       "name": "Brussels Bites",
       "address": "123 Moules Lane, Brussels, Belgium"
     },
-    "isAvailable": true
+    "isAvailable": false
   },
   {
     "id": "27",
@@ -333,7 +333,7 @@
       "name": "Cape Town Cuisine",
       "address": "101 Bunny Street, Cape Town, South Africa"
     },
-    "isAvailable": true
+    "isAvailable": false
   },
   {
     "id": "29",
