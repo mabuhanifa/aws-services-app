@@ -1,4 +1,4 @@
-import { CiUser } from "react-icons/ci";
+import { FiUser } from "react-icons/fi";
 import { MdFoodBank } from "react-icons/md";
 import { RiSearchLine } from "react-icons/ri";
 import platter from "../assets/platee.png";
@@ -24,12 +24,12 @@ export default function Nav() {
           </div>
         </div>
         <div className="flex items-center gap-x-8">
-          <button className="flex items-center mt-1 relative">
+          <button className="flex items-center mt-1.5 relative">
             <img src={platter} alt="platter" className="h-[30px]" />
             <span className="absolute top-[-8px] right-[-10px] h-5 w-5 bg-red-500 rounded-full text-white text-sm">0</span>
           </button>
           <button className="flex items-center relative">
-            <CiUser className="text-2xl text-gray-600 mt-1.5" />
+            <FiUser className="text-2xl text-gray-600 mt-1.5" />
           </button>
         </div>
       </nav>
