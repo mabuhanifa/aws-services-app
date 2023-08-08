@@ -20,13 +20,12 @@ const AnimatedProduct = ({ index, food }) => {
   const animationProps = useSpring({
     opacity: 1,
     transform: "translateX(0)",
-    from: { opacity: 0, transform: "translateX(-50px)" },
-    delay: index * 200
+    from: { opacity: 0, transform: "translateX(-150px)" },
+    delay: index * 200,
   });
 
   return (
     <animated.div style={animationProps}>
-      
       <Food food={food} />
     </animated.div>
   );
