@@ -1,4 +1,5 @@
 const express = require("express");
+const fileUpload = require("express-fileupload");
 
 const app = express();
 
@@ -16,6 +17,11 @@ app.get("/", (req, res) => {
 
 app.use(express.json());
 app.use(cors());
+app.use(
+  fileUpload({
+    useTempFiles: true,
+  })
+);
 
 app.use("/api/foods", foodRouter);
 
