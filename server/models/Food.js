@@ -6,11 +6,11 @@ const foodSchema = new mongoose.Schema(
     country: String,
     img: String,
     price: String,
-    restaurant: {
-      name: String,
-      address: String,
-    },
-    isAvailable: Boolean,
+    // restaurant: {
+    //   name: String,
+    //   address: String,
+    // },
+    // isAvailable: Boolean,
   },
   {
     timestamps: true,

@@ -1,11 +1,11 @@
 const { Router } = require("express");
 
-const { getAllFoods, imgUploader } = require("../controllers/foodControllers");
+const { getAllFoods, createFood } = require("../controllers/foodControllers");
 
 const router = Router();
 
 router.route("/").get(getAllFoods);
 
-router.route("/img").post(imgUploader);
+router.route("/").post(createFood);
 
 module.exports = router;

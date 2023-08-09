@@ -1,6 +1,6 @@
+const cloudinary = require("../config/cloudinary");
 const foods = require("../data.json");
 const Food = require("../models/Food");
-
 
 const getAllFoods = async (req, res) => {
   try {
@@ -15,11 +15,16 @@ const createFood = async (req, res) => {
     name,
     country,
     price,
-    restaurantName,
-    restaurantAddress,
-    isAvailable,
+    // restaurantName,
+    // restaurantAddress,
+    // isAvailable,
   } = req.body;
+
   const image = req.files.image;
+
+  if (!image) {
+    return res.status(400).json({ message: "Image is required" });
+  }
 
   try {
     const imageResult = await cloudinary.uploader.upload(image.tempFilePath);
@@ -29,11 +34,11 @@ const createFood = async (req, res) => {
       country,
       img: imageResult.secure_url,
       price,
-      restaurant: {
-        name: restaurantName,
-        address: restaurantAddress,
-      },
-      isAvailable,
+      // restaurant: {
+      //   name: restaurantName,
+      //   address: restaurantAddress,
+      // },
+      // isAvailable,
     });
 
     await newFood.save();
@@ -45,15 +50,8 @@ const createFood = async (req, res) => {
   }
 };
 
-const imgUploader = async (req, res) => {
-  try {
-  } catch (error) {
-    console.log(error);
-  }
-};
 
 module.exports = {
   getAllFoods,
   createFood,
-  imgUploader,
 };
