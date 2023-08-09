@@ -2,10 +2,15 @@ const mongoose = require("mongoose");
 
 const foodSchema = new mongoose.Schema(
   {
-    title: String,
+    name: String,
     country: String,
+    img: String,
     price: String,
-    status: String,
+    restaurant: {
+      name: String,
+      address: String,
+    },
+    isAvailable: Boolean,
   },
   {
     timestamps: true,
