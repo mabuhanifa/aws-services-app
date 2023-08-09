@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  cloudinary:
+    specifier: ^1.40.0
+    version: 1.40.0
   cors:
     specifier: ^2.8.5
     version: 2.8.5
@@ -14,6 +17,9 @@ dependencies:
   express:
     specifier: ^4.18.2
     version: 4.18.2
+  express-fileupload:
+    specifier: ^1.4.0
+    version: 1.4.0
   mongoose:
     specifier: ^7.4.2
     version: 7.4.2
@@ -72,6 +78,13 @@ packages:
     engines: {node: '>=14.20.1'}
     dev: false
 
+  /busboy@1.6.0:
+    resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
+    engines: {node: '>=10.16.0'}
+    dependencies:
+      streamsearch: 1.1.0
+    dev: false
+
   /bytes@3.1.2:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
     engines: {node: '>= 0.8'}
@@ -82,6 +95,24 @@ packages:
     dependencies:
       function-bind: 1.1.1
       get-intrinsic: 1.2.1
+    dev: false
+
+  /cloudinary-core@2.13.0(lodash@4.17.21):
+    resolution: {integrity: sha512-Nt0Q5I2FtenmJghtC4YZ3MZZbGg1wLm84SsxcuVwZ83OyJqG9CNIGp86CiI6iDv3QobaqBUpOT7vg+HqY5HxEA==}
+    peerDependencies:
+      lodash: '>=4.0'
+    dependencies:
+      lodash: 4.17.21
+    dev: false
+
+  /cloudinary@1.40.0:
+    resolution: {integrity: sha512-Fifkl8NRw/M+Enw4cKCXc6e0Or28c5y6RVGYS3OCLzT1W8EfBt416FURhLuuL/S4BCVv8bSilmnM746kCtth3g==}
+    engines: {node: '>=0.6'}
+    dependencies:
+      cloudinary-core: 2.13.0(lodash@4.17.21)
+      core-js: 3.32.0
+      lodash: 4.17.21
+      q: 1.5.1
     dev: false
 
   /content-disposition@0.5.4:
@@ -103,6 +134,11 @@ packages:
   /cookie@0.5.0:
     resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
     engines: {node: '>= 0.6'}
+    dev: false
+
+  /core-js@3.32.0:
+    resolution: {integrity: sha512-rd4rYZNlF3WuoYuRIDEmbR/ga9CeuWX9U05umAvgrrZoHY4Z++cp/xwPQMvUpBB4Ag6J8KfD80G0zwCyaSxDww==}
+    requiresBuild: true
     dev: false
 
   /cors@2.8.5:
@@ -167,6 +203,13 @@ packages:
   /etag@1.8.1:
     resolution: {integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==}
     engines: {node: '>= 0.6'}
+    dev: false
+
+  /express-fileupload@1.4.0:
+    resolution: {integrity: sha512-RjzLCHxkv3umDeZKeFeMg8w7qe0V09w3B7oGZprr/oO2H/ISCgNzuqzn7gV3HRWb37GjRk429CCpSLS2KNTqMQ==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      busboy: 1.6.0
     dev: false
 
   /express@4.18.2:
@@ -297,6 +340,10 @@ packages:
   /kareem@2.5.1:
     resolution: {integrity: sha512-7jFxRVm+jD+rkq3kY0iZDJfsO2/t4BBPeEb2qKn2lR/9KhuksYk5hxzfRYWMPV8P/x2d0kHD306YyWLzjjH+uA==}
     engines: {node: '>=12.0.0'}
+    dev: false
+
+  /lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
   /media-typer@0.3.0:
@@ -461,6 +508,11 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
+  /q@1.5.1:
+    resolution: {integrity: sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==}
+    engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
+    dev: false
+
   /qs@6.11.0:
     resolution: {integrity: sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==}
     engines: {node: '>=0.6'}
@@ -573,6 +625,11 @@ packages:
   /statuses@2.0.1:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
     engines: {node: '>= 0.8'}
+    dev: false
+
+  /streamsearch@1.1.0:
+    resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
+    engines: {node: '>=10.0.0'}
     dev: false
 
   /toidentifier@1.0.1:
