@@ -13,7 +13,7 @@ export default function Food({ food }) {
         <img
           src={food.img}
           alt={food.name}
-          className="w-96 h-80 object-cover rounded-2xl"
+          className="w-96 h-72 object-cover rounded-2xl"
         />
         <button className="flex justify-center items-center absolute top-3 right-3 h-10 w-10 bg-white/[.75] rounded-full">
           <BiSolidHeart color="red" size={20} className="text-white" />

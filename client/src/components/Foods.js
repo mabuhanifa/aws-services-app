@@ -9,7 +9,7 @@ export default function Foods() {
   const store = useSelector((state) => state);
   console.log(store);
   return (
-    <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+    <div className="grid sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-5">
       {data.map((food, index) => (
         <AnimatedProduct key={food.id} index={index} food={food} />
       ))}
