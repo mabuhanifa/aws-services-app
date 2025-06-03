@@ -1,0 +1,13 @@
+/node_modules
+.env
+.DS_Store
+/dist
+/.vscode
+/.idea
+/.cache
+/.eslintcache
+/.next
+/.nuxt
+/.nuxt-data
+/.nuxt-generate
+/.nuxt-ssr
